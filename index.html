@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Fotografía</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('imagenes/fondo.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .hero p {
+            margin: 15px 0;
+        }
+        .btn-main {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn-main:hover {
+            background-color: #0056b3;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .section p {
+            color: #555;
+        }
+        .register-section {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .btn-register {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn-register:hover {
+            background-color: #218838;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Curso de Fotografía</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="login.php">Iniciar Sesión</a></li>
+                <li><a href="register.html">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <div class="hero">
+        <h1>¡Captura momentos únicos!</h1>
+        <p>Explora el arte de la fotografía desde sus fundamentos hasta técnicas avanzadas.</p>
+        <a href="register.html" class="btn-main">¡Inscríbete ahora!</a>
+    </div>
+
+    <!-- Información sobre el curso -->
+    <section class="section">
+        <h2>¿Qué aprenderás en nuestro curso?</h2>
+        <p>
+            Descubre los tres niveles que ofrecemos:
+        </p>
+        <p><strong>Fotografía Básica:</strong> Aprende a usar tu cámara y los conceptos esenciales.</p>
+        <p><strong>Fotografía con Edición:</strong> Mejora tus fotos con software profesional.</p>
+        <p><strong>Fotografía Profesional:</strong> Domina técnicas avanzadas y crea portafolios de calidad.</p>
+    </section>
+
+    <!-- Sección de registro -->
+    <section class="register-section">
+        <h2>¿Listo para empezar?</h2>
+        <a href="register.html" class="btn-register">Regístrate ahora</a>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Curso de Fotografía. Todos los derechos reservados.</p>
+        <p><a href="mailto:info@cursodefotografia.com">info@cursodefotografia.com</a></p>
+    </footer>
+</body>
+</html>
