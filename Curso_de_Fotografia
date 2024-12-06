@@ -1,0 +1,7 @@
+echo "# curso_de_Fotografia" >> README.md 
+git init 
+git add README.md 
+git commit -m "primer commit" 
+git branch -M main 
+git remote add origin git@github.com:Klever2002/curso_de_Fotografia.git
+ git push -u origin main
